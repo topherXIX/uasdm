@@ -32,7 +32,7 @@ st.sidebar.title("🔍 Navigasi")
 st.sidebar.info("Pilih halaman untuk menjelajahi data atau menjalankan pemodelan.")
 
 # File path untuk dataset
-file_path = "C:/Users/ASUSTeK/DM/cybersecurity_attacks.csv"
+file_path = "cybersecurity_attacks.csv"
 data = pd.read_csv(file_path)
 
 # Preprocessing
